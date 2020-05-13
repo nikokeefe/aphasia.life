@@ -54,7 +54,13 @@ body {
 }
 
 .narrow h1 {
-	font-size: 2.4rem;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.narrow p {
+	font-size: 2rem;
+	padding-bottom: 5rem;
 }
 
 .btn-secondary {
@@ -144,6 +150,12 @@ h3.heading {
 	align-items: center;
 	justify-content: center;
 	color: #000;
+}
+
+.videos h3 {
+	font-size: 3.2rem;
+	font-weight: bold;
+	color: white;
 }
 .video-post {
 	width: 100%;
