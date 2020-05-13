@@ -54,7 +54,7 @@ body {
 }
 
 .narrow h1 {
-	font-size: 3rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 }
 
@@ -68,11 +68,12 @@ body {
 	border-radius: 5rem;
 	text-transform: uppercase;
 	font-size: 1.2rem;
-	padding: 0.6rem 1.2rem;
+	padding: 1rem 1.5rem;
 	margin: 1rem;
 	color: white;
 	background-color: #505962;
 	border-color: #505962;
+	letter-spacing: 2px;
 }
 
 .btn-secondary:hover {
@@ -237,6 +238,10 @@ h3.heading {
 	border-radius: 50%;
 }
 
+blockquote {
+	font-size: 2rem;
+}
+
 blockquote .svg-inline--fa {
 	color: #4facfe;
 	margin: 0.5rem;
@@ -257,21 +262,40 @@ footer {
 }
 
 footer img {
-	height: 3rem;
+	height: 5rem;
 	margin: 1.5rem 0;
+	border-radius: 3rem;
 }
 
-footer a {
+.footer a {
 	color: white;
 }
 
+.footer p {
+	color: white;
+	font-size: 2rem;
+	transition: all 1s ease-out;
+}
+
+.footer p:hover,
+.footer p:focus {
+	color: white;
+	text-decoration: none;
+	transform: scale(1.2);
+}
+
 footer svg.svg-inline--fa {
-	font-size: 1.6rem;
+	font-size: 2rem;
+	color: white;
 	margin: 1.2rem 0.5rem 0 0;
 }
 
 footer svg.svg-inline--fa:hover {
-	color: #4facfe !important;
+	color: white;
+}
+
+.footer__download {
+	margin-top: 3rem;
 }
 
 hr.socket {
@@ -307,7 +331,21 @@ hr.socket {
 
 @media (max-width: 767px) {
 	.narrow h1 {
+		font-size: 2rem;
+	}
+
+	.narrow p {
 		font-size: 1.5rem;
+		padding-bottom: 5rem;
+	}
+
+	.fixed-background h3 {
+		font-size: 1.5rem;
+	}
+
+	.btn-secondary {
+		padding: 0;
+		margin: 0;
 	}
 
 	.people img {
